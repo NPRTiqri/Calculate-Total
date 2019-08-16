@@ -1,0 +1,55 @@
+﻿body {
+    text-align: center;
+    font-family: Tahoma;
+}
+
+form {
+    display: inline-block;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+h3{
+    text-shadow: initial;
+     color: #ff6a00; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  #ValueOfZ{
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+ #ErrorMessage{
+    font-size:13px;
+    color:red;
+}
